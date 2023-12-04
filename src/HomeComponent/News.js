@@ -10,7 +10,7 @@ export default function News() {
   let number;
   const zeroPad = (num, places) => String(num).padStart(places, "0");
   useEffect(() => {
-    let url = "/news";
+    let url = "https://api-keys-nwt-i2as.vercel.app/news";
     let req = new Request(url);
     let getApi = async () => {
       const res = await fetch(req);

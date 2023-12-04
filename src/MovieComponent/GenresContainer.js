@@ -7,7 +7,9 @@ export default function GenresContainer({ GenerData }) {
 
   const fetchGenres = async () => {
     try {
-      const response = await fetch("/movieGenre");
+      const response = await fetch(
+        "https://api-keys-nwt-i2as.vercel.app/movieGenre"
+      );
       const data = await response.json();
       const genresString = data.genres;
 
@@ -29,7 +31,9 @@ export default function GenresContainer({ GenerData }) {
     }
   };
   const fetchMovie = async (id) => {
-    const response = await fetch(`/movieList?with_genres=` + `${id.id}`);
+    const response = await fetch(
+      `https://api-keys-nwt-i2as.vercel.app/movieList?with_genres=` + `${id.id}`
+    );
 
     const data = await response.json();
 

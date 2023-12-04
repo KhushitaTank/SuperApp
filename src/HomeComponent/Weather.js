@@ -16,7 +16,7 @@ export default function Weather() {
   const [iconTitle, setIconTitle] = useState();
   const zeroPad = (num, places) => String(num).padStart(places, "0");
   useEffect(() => {
-    let url = "/weather";
+    let url = "https://api-keys-nwt-i2as.vercel.app/weather";
     let req = new Request(url);
     let getApi = async () => {
       const res = await fetch(req);
