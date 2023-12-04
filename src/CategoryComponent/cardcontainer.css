@@ -1,0 +1,67 @@
+.card {
+  text-align: start;
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 10px;
+}
+
+.HeadingGeners {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.ImgGener {
+  width: 165px;
+  background: black;
+  border-radius: 15px;
+  border-radius: 8.661px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.55);
+}
+
+.color1 {
+  border-radius: 20px;
+
+  background: #ff5209;
+}
+.color2 {
+  border-radius: 20px;
+  background: #d7a4ff;
+}
+.color3 {
+  border-radius: 20px;
+
+  background: #148a08;
+}
+.color4 {
+  border-radius: 20px;
+  background: #84c2ff;
+}
+.color5 {
+  border-radius: 20px;
+  background: #902500;
+}
+.color6 {
+  border-radius: 20px;
+  background: #7358ff;
+}
+.color7 {
+  border-radius: 20px;
+  background: #ff4ade;
+}
+.color8 {
+  border-radius: 20px;
+
+  background: #e61e32;
+}
+.color9 {
+  border-radius: 20px;
+  background: #6cd061;
+}

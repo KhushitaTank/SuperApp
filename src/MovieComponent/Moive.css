@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.movieSectionUserImg {
+  border-radius: 100%;
+  width: 62px;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.movieSectionUserImgBtn {
+  background: black;
+  border: none;
+}
+
+.Movie {
+  margin-left: 36px;
+}
+
+.HeadingChoice {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30.424px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.688%;
+  margin: 0px;
+  letter-spacing: 0.608px;
+}
+
+.MovieListContainer {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.MovieListHeading {
+  color: #878787;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 139.688%;
+  letter-spacing: 0.6px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.MovieCardContainer {
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  height: 240px;
+  display: flex;
+
+  overflow: auto;
+
+  scroll-behavior: smooth;
+}
+
+.cardDisplay {
+  width: 235px;
+  height: 215px;
+  flex-shrink: 0;
+}
+
+.ScrollBarMovies {
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+  position: relative;
+}
+
+.ScrollBarMovies:hover {
+  overflow-x: scroll;
+}
+
+.ScrollBarMovies::-webkit-scrollbar {
+  height: 6px;
+}
+
+.ScrollBarMovies::-webkit-scrollbar-thumb {
+  background: #7e7e7e;
+}
+
+.ScrollBarMovies::-webkit-scrollbar-track {
+  background: #2a2a2b;
+}

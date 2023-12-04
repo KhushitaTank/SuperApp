@@ -1,0 +1,29 @@
+.error {
+  color: red;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.formDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  padding-left: 10px;
+  width: 518px;
+  height: 64.869px;
+  flex-shrink: 0;
+  border-radius: 3.816px;
+  border: 1px solid #292929;
+  background: #292929;
+  color: #7c7c7c;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  letter-spacing: 0.401px;
+  margin-bottom: 10px;
+  outline: none;
+}

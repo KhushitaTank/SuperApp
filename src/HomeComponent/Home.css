@@ -1,0 +1,377 @@
+.Home {
+  display: flex;
+  padding-top: 10px;
+}
+
+.left-coloum {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.UserDetails {
+  display: flex;
+  border-radius: 33.428px;
+  background: #5746ea;
+  width: 507px;
+  height: 319px;
+}
+.userDetalilLeftSide {
+  width: 30%;
+  padding: 30px 10px 0px 15px;
+  border-radius: 50px;
+}
+.userDetalilRightSide {
+  padding-left: 10px;
+}
+.Name {
+  padding: 32px 0px 0px 0px;
+  width: 154.824px;
+  height: 31.669px;
+  margin: 0px;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.188%;
+  letter-spacing: 0.42px;
+}
+
+.Email {
+  width: 212px;
+  height: 18px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.688%;
+  letter-spacing: 0.42px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.UserName {
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+  margin-top: 10px;
+  width: 175px;
+  height: 28px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66.188%;
+  letter-spacing: 0.82px;
+}
+
+.GenerList {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+}
+
+.scrollable {
+  width: 269px;
+  height: 110px;
+  overflow-y: hidden;
+  scrollbar-gutter: stable;
+  position: relative;
+}
+
+.scrollable:hover {
+  overflow-y: scroll;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #2612df;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: #5746ea;
+}
+
+.Geners {
+  text-align: center;
+  border-radius: 36.947px;
+  background: #9f94ff;
+  padding: 11px;
+  width: 92px;
+  height: 18px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.32px;
+}
+.NewSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgNews {
+  width: 390px;
+  height: 555px;
+  border-radius: 38px 38px 0px 0px;
+  background: lightgray 50% / cover no-repeat;
+}
+.imgAndHeadline {
+  position: relative;
+}
+
+.belowImage {
+  position: absolute;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.74);
+  /* bottom: 0; */
+  padding-left: 35px;
+  /* text-align: center; */
+  bottom: 0%;
+  width: 355px;
+}
+
+.dateAndTime {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18.249px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 15px;
+}
+
+.headLine {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.688%;
+  letter-spacing: 0.64px;
+}
+
+.descriptionContainer {
+  border-radius: 0px 0px 19px 19px;
+  background: #fff;
+  width: 390px;
+  height: 308px;
+}
+
+.description {
+  flex-shrink: 0;
+  width: 350px;
+  color: #272727;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 18.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.688%;
+  margin: 0px;
+  padding: 30px;
+  padding: 30px 20px 30px 20px;
+}
+
+.weatherData {
+  width: 506px;
+  /* height: 96.765px; */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 0px;
+}
+
+.weatherSection1 {
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 33.428px 33.428px 0px 0px;
+  background: #ff4ade;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weatherDate {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.688%;
+  letter-spacing: 0.66px;
+}
+.weathertime {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.weatherSection2 {
+  height: 140px;
+  background: #101744;
+  display: flex;
+  border-radius: 0px 0px 33px 33px;
+}
+
+.row1 {
+  width: 33.3%;
+  /* padding: 24px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temp {
+  width: 97.815px;
+  height: 44.462px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 44.462px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  margin-left: 18px;
+  text-align: center;
+}
+.pressure {
+  display: flex;
+  justify-content: center;
+}
+.displayPressure {
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  width: 70.686px;
+  height: 15.535px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.982px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+
+.row2 {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  margin-top: 16px;
+}
+.iconTitle {
+  margin: 0px;
+  width: 83.114px;
+  height: 17.866px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 17.866px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  text-align: center;
+}
+
+.row3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 50px; */
+  align-items: center;
+  /* gap: 10px; */
+  width: 33.3%;
+}
+
+.windIcon {
+  width: 26.692px;
+  height: 20.973px;
+}
+
+.WindContainer {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+  align-items: center;
+  gap: 10px;
+}
+.windDetails {
+  width: 58.257px;
+  /* height: 15.535px; */
+  /* flex-shrink: 0; */
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.982px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  margin: 0px;
+}
+.humidityContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.humidityIcon {
+  width: 14.223px;
+  height: 21.024px;
+}
+.humidityDetails {
+  width: 58.257px;
+  height: 15.535px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.982px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+
+.section1 {
+  display: flex;
+}
+
+.BrowseBtn {
+  display: flex;
+  justify-content: end;
+  padding: 10px 30px;
+}
+
+.browsebutton {
+  width: 179px;
+  height: 50.12px;
+  flex-shrink: 0;
+  border-radius: 34.777px;
+  background: #148a08;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 23.526px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%;
+  letter-spacing: 0.471px;
+  border: none;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.formHeading {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 67px;
+  /* font-style: normal; */
+  font-weight: 400;
+  line-height: 139.688%;
+  font-family: "Single Day", cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  width: 530px;
+}
+
+.formPara {
+  width: 530px;
+  height: 27px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn {
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 108.688%; /* 31.519px */
+  letter-spacing: 0.58px;
+
+  width: 557px;
+  height: 55px;
+
+  border-radius: 28px;
+  background: #72db73;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+}
+
+.termsCondition {
+  padding-left: 20px;
+  width: 518px;
+  height: 53px;
+
+  color: #7c7c7c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.688%;
+  letter-spacing: 0.36px;
+}
+
+.hyperLink {
+  color: #72db73;
+}
+
+.Checkbox {
+  width: 433px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #7c7c7c;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 27.984px */
+  letter-spacing: 0.401px;
+  padding: 10px 10px 30px 9px;
+}
+
+.checkboxError {
+  color: red;
+  padding-bottom: 10px;
+}
