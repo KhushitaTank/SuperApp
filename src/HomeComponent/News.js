@@ -32,7 +32,10 @@ export default function News() {
       const minutes = dateTime.getMinutes();
       const amOrPm = hours >= 12 ? "PM" : "AM";
       const formattedHours = hours % 12 || 12;
-      const newTime = `${formattedHours}:${minutes} ${amOrPm}`;
+      const newTime = `${zeroPad(formattedHours, 2)}:${zeroPad(
+        minutes,
+        2
+      )} ${amOrPm}`;
 
       setApi(randomApi);
       setImg(randomApi.urlToImage);
